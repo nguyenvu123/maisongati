@@ -1,0 +1,52 @@
+# Application
+.idea/
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+
+#Frontend
+inte/node_modules/
+web/html
+web/html/*
+
+#Folder Upload
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+#Style Site
+
+web/app/themes/pointrive/assets/css/main.css.map
+web/app/themes/pointrive/assets/css/print.css
+web/app/themes/pointrive/assets/css/print.css.map
+web/app/themes/pointrive/assets/js/main.js.map
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+backup
+backups
+tmp
+.cache
+.composer
+.ssh
+.viminfo
+.mysql_history.TMP
+.bash_history
+.mysql_history.TMP-
+
