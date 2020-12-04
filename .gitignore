@@ -1,28 +1,22 @@
 # Application
 .idea/
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+wp-content/mu-plugins/*/
 
 #Frontend
-inte/node_modules/
-web/html
-web/html/*
+
 
 #Folder Upload
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
+wp-content/upgrade
+wp-content/uploads/*
+!/wp-content/uploads/.gitkeep
 
 #Style Site
 
-web/app/themes/pointrive/assets/css/main.css.map
-web/app/themes/pointrive/assets/css/print.css
-web/app/themes/pointrive/assets/css/print.css.map
-web/app/themes/pointrive/assets/js/main.js.map
-
 # WordPress
-web/wp
+wp-admin/*
+wp-includes/*
 web/.htaccess
 
 # Logs
@@ -32,7 +26,7 @@ web/.htaccess
 .env
 .env.*
 !.env.example
-
+*.sql
 # Composer
 /vendor
 
